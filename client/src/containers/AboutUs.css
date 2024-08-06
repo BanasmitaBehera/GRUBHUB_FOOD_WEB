@@ -1,0 +1,99 @@
+.about-us {
+    font-family: Arial, sans-serif;
+    padding: 30px;
+    background-color: #e0f0f6; /* Light Alice Blue background */
+  }
+  
+  .about-us-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .about-us-header-title {
+    font-style: italic;
+    font-size: 2.5rem;
+    color: #333; /* Dark color for the header */
+  }
+  
+  .about-us-content {
+    font-style: italic;
+    max-width: 1200px; /* Ensures the content is centered and does not stretch too wide */
+    margin: auto;
+    line-height: 1.6;
+    color: #555;
+    font-size: 1.5rem; /* Slightly lighter color for text */
+  }
+  
+  .about-us-section-title {
+    font-style: italic;
+    font-size: 2rem;
+    margin-top: 30px;
+    color: #222; /* Darker color for section headings */
+  }
+  
+  .about-us-paragraph {
+    font-style: italic;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-list {
+    font-style: italic;
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .about-us-list-item {
+    font-style: italic;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .about-us-team {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between; /* Ensures team members are spaced evenly */
+    margin-top: 30px;
+  }
+  
+  .about-us-team-member {
+    flex: 1 1 calc(25% - 20px); /* Four team members per row */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    background-color: #ffffff; /* White background for team member cards */
+    border-radius: 8px; /* Rounded corners */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* Smooth transition for hover effects */
+  }
+  
+  .about-us-team-member:hover {
+    transform: translateY(-10px); /* Slightly move the card up */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase the shadow on hover */
+  }
+  
+  .about-us-team-member-image {
+    max-width: 120px; /* Adjusted size for profile pictures */
+    height: auto;
+    border-radius: 50%; /* Circular profile picture */
+    margin-bottom: 10px;
+  }
+  
+  .about-us-team-member-name {
+    font-size: 1.2rem;
+    margin: 10px 0 5px;
+    color: #333;
+  }
+  
+  .about-us-team-member-role {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .about-us-team-member {
+      flex: 1 1 100%; /* Full width on smaller screens */
+    }
+  }
+  
